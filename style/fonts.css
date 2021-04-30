@@ -1,6 +1,8 @@
 @font-face{
     font-family: "Sergio Trendy";
     src: url("/assets/fonts/sergio-trendy-webfont.woff");
+    font-style: normal;
+    font-weight: 100;
 
 
 }
