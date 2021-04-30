@@ -65,7 +65,7 @@ export const HeroH1 = styled.h1`
     font-family: "brl-font", sans-serif;
 
     @media screen and (max-width: 768px){
-        font-size: 40px;
+        font-size: 48px;
     } 
     @media screen and (max-width: 480px){
         font-size: 32px;

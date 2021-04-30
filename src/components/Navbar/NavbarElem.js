@@ -56,6 +56,12 @@ export const NavLogo = styled(LinkR)`
         transition: 0.8s all ease;
 
     }
+    @media screen and (max-width: 375px){
+        /* transition: 0.8s all ease; */
+        font-size:1.3rem;
+        padding-top:8px;
+
+    }
 `
 
 export const MobileIcon = styled.div`
@@ -85,7 +91,7 @@ export const NavMenu = styled.ul`
     list-style: none;
     text-aling: center;
     margin-right: -22px;
-    font-family: "Sergio Trendy", sans-serif;
+    font-family: "brl-font", sans-serif;
     font-size: 1.7rem;
     transition: 0.2s ease-in-out;
 
@@ -114,6 +120,7 @@ export const NavLinks = styled(LinkR)`
     border-top: 2px solid #ffffff00; 
     border-bottom: 2px solid #ffffff00;
     transition: 0.2s ease-in-out;
+    font-family: "brl-font", sans-serif;
 
     &:hover {
         color:var(--accent-color-two);
