@@ -48,9 +48,9 @@ export const NavLogo = styled(LinkR)`
     transition: all 0.2s ease-in-out;
 
     &:hover {
-        color:#FDA388;
-        border-top: 2px solid #FDA388;
-        border-bottom: 2px solid #FDA388;
+        color:var(--accent-color-two);
+        border-top: 2px solid var(--accent-color-two);
+        border-bottom: 2px solid var(--accent-color-two);
     }
     @media screen and (max-width: 960px){
         transition: 0.8s all ease;
@@ -64,11 +64,12 @@ export const MobileIcon = styled.div`
     transition: 0.2s ease-in-out;
 
     &:hover {
-        color:#FDA388;
+        color:var(--accent-color-two);
     }
     @media screen and (max-width: 768px){
         display:block;
         position:absolute;
+        padding-top:10px;
         top: 1;
         right: 0;
         transform: translate(-100%, 60%);
@@ -89,7 +90,7 @@ export const NavMenu = styled.ul`
     transition: 0.2s ease-in-out;
 
     &:hover {
-        color:#FDA388;
+        color:var(--accent-color-two);
     }
     
     @media screen and (max-width: 768px){
@@ -115,11 +116,11 @@ export const NavLinks = styled(LinkR)`
     transition: 0.2s ease-in-out;
 
     &:hover {
-        color:#FDA388;
+        color:var(--accent-color-two);
         /* text-decoration:underline overline; */
         
-       border-top: 2px solid #FDA388;
-       border-bottom: 2px solid #FDA388;
+       border-top: 2px solid var(--accent-color-two);
+       border-bottom: 2px solid var(--accent-color-two);
     }
 
     

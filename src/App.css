@@ -1,4 +1,10 @@
+:root {
+  --accent-color:#9772D3;
+  --accent-color-two: #D37272;
+}
+
 *{
   margin:0px;
   padding:0px;
+
 }

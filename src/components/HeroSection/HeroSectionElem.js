@@ -104,26 +104,26 @@ export const HeroBtnWrapper = styled.div`
 
 
 export const Button = styled(LinkR)`
-    border-radius: 6px;
+    border-radius: 26px;
     background: #cdcdcd;
-    padding: 3px 48px;
-    color: #000;
+    padding: 8px 48px;
+    color: #fff;
     text-decoration:none;
-    font-size:28px;
-    background: #FDA388;
+    font-size:18px;
+    background: var(--accent-color);
     transition: 0.2s ease-in-out;
     margin: 4px;
     font-family: Lato, sans-serif;
     font-weight:600;
-    border: 2px solid #FDA388;
+    border: 2px solid  var(--accent-color);
     
    &:hover {
        background:none;
        border-radius:0;
        border-left: none;
        border-right: none;
-       border-top: 2px solid #FDA388;
-       border-bottom: 2px solid #FDA388;
+       border-top: 2px solid var(--accent-color);
+       border-bottom: 2px solid var(--accent-color);
        color:#fff;
    } 
     @media screen and (max-width: 768px){
@@ -131,4 +131,23 @@ export const Button = styled(LinkR)`
         padding: 12px 28px;
     }
 
+`
+
+export const HeroSocialWrapper = styled.div`
+    display:flex;
+    padding-top: 29px;
+
+`
+export const SocialIcon = styled.a`
+    padding: 0px 10px;
+    
+`
+
+export const Img = styled.img`
+    opacity:100%;
+    transition: all 0.3s ease-in-out;
+
+    &:hover{
+        opacity:50%;
+    }
 `
