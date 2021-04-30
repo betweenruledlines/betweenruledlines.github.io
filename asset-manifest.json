@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.08f11093.chunk.css",
-    "main.js": "/static/js/main.c1e48114.chunk.js",
-    "main.js.map": "/static/js/main.c1e48114.chunk.js.map",
+    "main.js": "/static/js/main.3649c218.chunk.js",
+    "main.js.map": "/static/js/main.3649c218.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.78af30bb.js",
     "runtime-main.js.map": "/static/js/runtime-main.78af30bb.js.map",
     "static/js/2.6e4dc556.chunk.js": "/static/js/2.6e4dc556.chunk.js",
@@ -10,12 +10,12 @@
     "index.html": "/index.html",
     "static/css/main.08f11093.chunk.css.map": "/static/css/main.08f11093.chunk.css.map",
     "static/js/2.6e4dc556.chunk.js.LICENSE.txt": "/static/js/2.6e4dc556.chunk.js.LICENSE.txt",
-    "static/media/Mermaid_c.741d49a6.mp4": "/static/media/Mermaid_c.741d49a6.mp4"
+    "static/media/loop_2k.27ba3837.mp4": "/static/media/loop_2k.27ba3837.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.78af30bb.js",
     "static/js/2.6e4dc556.chunk.js",
     "static/css/main.08f11093.chunk.css",
-    "static/js/main.c1e48114.chunk.js"
+    "static/js/main.3649c218.chunk.js"
   ]
 }
