@@ -7,7 +7,7 @@ export const SidebarContainer = styled.aside`
     z-index: 999;
     width: 100%;
     height: 100%;
-    background: #0d0d0d;
+    background:#1d1d1d ;
     display:grid;
     align-items: center;
     top:0;
@@ -23,8 +23,8 @@ export const CloseIcon = styled(FaTimes)`
 
 export const Icon = styled.div`
     position: absolute;
-    top: 1.2rem;
-    right: 1.5rem;
+    top: 2.8rem;
+    right: 1.9rem;
     background: transparent;
     font-size: 2rem;
     cursor: pointer;
@@ -58,10 +58,10 @@ export const SidebarLink = styled(LinkR)`
     transition: 0.2s ease-in-out;
     color: #fff;
     cursor:pointer;
+    font-family: "Sergio Trendy", sans-serif;
+    transition: 0.2s ease-in-out;
 
     &:hover {
-        color: red;
-        transition: 0.2s ease-in-out;
+        color:#FDA388;
     }
-
 `
