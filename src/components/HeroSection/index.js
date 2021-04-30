@@ -1,5 +1,5 @@
 import React from 'react'
-import Video from '../../videos/loop_2k.mp4'
+import Video from '../../videos/mermaid_final.mp4'
 import Poster from '../../videos/poster.jpg';
 import {HeroContainer,HeroWrapper, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, Button, HeroSocialWrapper, SocialIcon, Img} from './HeroSectionElem';
 

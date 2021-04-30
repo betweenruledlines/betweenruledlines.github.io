@@ -109,7 +109,7 @@ export const Button = styled(LinkR)`
     padding: 8px 48px;
     color: #fff;
     text-decoration:none;
-    font-size:18px;
+    font-size:15px;
     background: var(--accent-color);
     transition: 0.2s ease-in-out;
     margin: 4px;
